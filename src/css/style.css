@@ -186,19 +186,25 @@ input-field input::-webkit-inner-spin-button {
     }
 }
 
-@media screen and (max-width: 1024px) {
-
-    #container {
-        width: 100%;
-        height: 100%;
-        border-radius: 0;
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
     }
 
-    #container {
+    #calculator {
+        padding: 20px;
+    }
+
+    .input-box {
+        margin-bottom: 10px;
+    }
+
+    input[type="number"] {
+        width: 100px;
+    }
+
+    #calculate {
         width: 100%;
-        height: 100%;
-        border-radius: 0;
-        justify-content: center;
     }
 }
 
